@@ -1,0 +1,131 @@
+
+.top{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #003A6F;
+  color: white;
+}
+
+#shortIndexTable{
+
+  float: right;
+
+  padding-bottom: 10px;
+}
+
+
+.shortIndexElement{
+  text-align: center;
+  padding: 17px;
+  border: 5px solid #25dffc;
+  border-radius: 20px;
+  //background-color: yellow;
+
+}
+.shortIndexElement:hover{
+  background-color: yellow;
+}
+.shortIndexElement:active{
+  background-color: white;
+}
+a:link{
+  text-decoration: none;
+  color: inherit;
+}
+a.visited{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+a:active{
+  text-decoration: underline;
+  color: red;
+}
+
+
+#profilePic {
+  position: relative;
+  float: center;
+  clear: right;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 20px solid white;
+}
+#profilePic:hover{
+  border-color: #0297f4;
+
+}
+#profilePic:active{
+  border-color: tomato;
+}
+#indexTable{
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+}
+.indexElement{
+  border: 40px solid white; // #81898e;  // #b6d4d8; //#25dffc;
+  width: 25%;
+  color: white;
+  background-color: white;
+  border-radius: 70px;
+  opacity: 0.75;
+
+
+}
+
+.indexElement:hover{
+  opacity: 1;
+  border-color: #0297f4;
+}
+.indexElement:active{
+  opacity: 0.8;
+  border-color: tomato;
+}
+#aboutMe {
+  background-image: url(images/aboutMe.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#education{
+  background-image: url(images/education.jpg);
+  background-size: cover;
+}
+#achievement{
+  background-image: url(images/achievement.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gallary{
+  background-image: url(images/gallary.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bottomTable{
+  margin-top: 40px;
+  color: white;
+  background-color: #003A6F;
+  padding: 20px;
+  width: 100%;
+}
+
+body {
+  background-color: #25dffc;
+}
